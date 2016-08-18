@@ -11,10 +11,10 @@
 clear all;
 close all;
 % f(x)= -5x^5+4x^4-12x^3+11x^2-2x+1, entre -0.5 e 0.5
-xl=-0.5; xu=0.5; % intervalo inicial 
+xl=0; xu=2*pi; % intervalo inicial 
 alfa=0.15; beta=0.5; % alfa entre 0.01 e 0.3, beta entre 0.1 e 0.8
 t=1;
-tolerancia=1e-6; % critério de parada
+tolerancia=1e-5; % critério de parada
 % f(x)= (ln(x-2))^2+(ln(10-x))^2-x^0.2, entre 6 e 9.9
 % f(x)= -3x*sin(0.75x)+e^-2x, entre 0 e 2pi
 %% Backtracking Line Search

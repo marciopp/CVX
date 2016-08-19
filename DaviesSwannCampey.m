@@ -27,7 +27,7 @@ tolerancia=1e-6; % critério de parada
 % caso c: f(xa) = f(xb) : qq acima
 % 
 %% Davies, Swann and Campey Search
-fxa=fx(x-dk); fxb=(x+dk);
+%fxa=fx(x1-dk); fxb=(x1+dk);
 cont=0; x0=10e99;xbarra=0; x1=(xu+xl)/2; 
 while (abs(xbarra-x0) > tolerancia)
     x0=xbarra;

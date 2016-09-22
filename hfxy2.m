@@ -21,6 +21,7 @@ dfyy=12*x(2)^2+4*x(1)^2-2;
 y=[dfxx dfxy; dfyx dfyy];
 %}
 
+%{
 dfxx=2*(600*(x(1)-x(4))^2+1);
 dfxy=20;
 dfxz=0;
@@ -39,4 +40,13 @@ dfwz=-10;
 dfww=10*(120*(x(4)-x(1))^2+1);
 y=[dfxx dfxy dfxz dfxw; dfyx dfyy dfyz dfyw; dfzx dfzy dfzz dfzw; dfwx dfwy dfwz dfww];
 %}
+
+
+dfxx=10;
+dfxy=-9;
+dfyx=-9;
+dfyy=8.15;
+y=[dfxx dfxy; dfyx dfyy];
+%}
+
 end
